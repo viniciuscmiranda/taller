@@ -1,5 +1,5 @@
-import { Transaction } from '../../types/models/Transaction';
-import { Formatters } from '../../utils/formatters';
+import { Transaction } from '@/types/models/Transaction';
+import { Formatters } from '@/utils/formatters';
 import {
   TransactionAmount,
   TransactionCardContainer,

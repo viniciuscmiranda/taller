@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import { Theme } from './theme';
 
 // https://www.joshwcomeau.com/css/custom-css-reset/
 export const StyleReset = createGlobalStyle`
@@ -24,6 +25,8 @@ export const StyleReset = createGlobalStyle`
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  background-color: ${Theme.colors.background};
+
 
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;

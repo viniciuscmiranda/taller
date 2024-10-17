@@ -1,4 +1,4 @@
-import { Transaction } from '../types/models/Transaction';
+import { Transaction } from '@/types/models/Transaction';
 
 export const transactions = generateTransactions();
 
