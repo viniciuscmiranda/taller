@@ -25,6 +25,10 @@ export const TransactionService = {
       return true;
     });
 
+    data.sort(
+      (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+    );
+
     console.log('GET /api/transactions');
     return new Promise((resolve) => {
       setTimeout(() => resolve(data), 100);
