@@ -6,6 +6,9 @@ export const DateRangeContainer = styled.div`
   display: flex;
   gap: 0.8rem;
   box-shadow: 0 0.2rem 0.4rem 0 rgba(0, 0, 0, 0.1);
+  position: sticky;
+  background-color: ${Theme.colors.backgroundSecondary};
+  top: 0;
 `;
 
 export const InputLabel = styled.label`
